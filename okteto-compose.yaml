@@ -1,0 +1,10 @@
+version: "3.10"
+services:
+  worker:
+    build: .
+    environment:
+      - TOKEN=${TOKEN}
+      - OWNER=${OWNER}
+      - GROUP=${GROUP}
+      - CHANNEL=${CHANNEL}
+ 
