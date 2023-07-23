@@ -18,7 +18,7 @@ from config import GROUP, OWNER, CHANNEL, TOKEN
 
 
 bot = telebot.TeleBot(f'{TOKEN}')
-
+print('BOT BERHASIL DIJALANKAN!')
 
 class User:  
     def __init__(self, user_id):
@@ -260,7 +260,4 @@ def chat(message):
 
     bot.register_next_step_handler(message, chat)
 
-           
-
-print("BOT SUDAH SIAP")
 bot.polling()
