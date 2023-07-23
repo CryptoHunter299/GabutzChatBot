@@ -9,7 +9,7 @@
 
 import os 
 
-TOKEN = os.environ.get("TOKEN", "")
-OWNER = os.environ.get("OWNER", "kenkanasw")
-GROUP = os.environ.get("GROUP", "aruna_mutual")
-CHANNEL = os.environ.get("CHANNEL", "gabutan_escape")
+TOKEN = os.environ["TOKEN"]
+OWNER = os.environ["OWNER"]
+GROUP = os.environ["GROUP"]
+CHANNEL = os.environ["CHANNEL"]
